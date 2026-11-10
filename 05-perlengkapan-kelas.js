@@ -1,3 +1,4 @@
+
 // Daftar perlengkapan kelas
 const daftarBarang = [
     "Buku Tulis",
@@ -14,7 +15,7 @@ console.log("Daftar barang awal:", daftarBarang);
 // Menambahkan barang baru
 const barangBaru = "Pulpen";
 
-if (barangBaru !== "") {
+if (barangBaru !== "" && barangBaru.trim() !== "") {
     daftarBarang.push(barangBaru);
     console.log("Setelah menambahkan barang:", daftarBarang);
 } else {
