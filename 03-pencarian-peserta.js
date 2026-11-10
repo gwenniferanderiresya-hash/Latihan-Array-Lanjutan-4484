@@ -1,6 +1,6 @@
 const daftarPeserta = ["Andi", "Budi", "Citra", "Deni", "Eka"];
 
-const namaDicari = "Raka";
+const namaDicari = "Citra";
 
 // Memeriksa apakah nama terdaftar
 const namaDitemukan = daftarPeserta.includes(namaDicari);
